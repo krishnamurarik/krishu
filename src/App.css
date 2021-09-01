@@ -1,0 +1,160 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.Active_Link{
+  color: black !important ;
+  text-decoration-line: underline;
+  text-decoration-color: white;
+}
+.Link_color{
+  color: white;
+}
+.plan {
+  transition: all  0.50s linear;
+}
+.plan:hover{
+  box-shadow: rgba(128, 128, 128, 0.616)  0px 10px 20px;
+  color:  orange;
+}
+.card-crs{
+  max-width: 350px;
+  padding-top: 35px;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 30px;
+  transition: all  1s linear;
+}
+.card-crs:hover{
+  padding-top: 0px;
+}
+.card-crs h2{
+  margin-top: 15px;
+  transition: all  1s ;
+}
+.card-crs:hover h2{
+  margin-top: 0px;
+}
+.btn-top{
+  transition: all  1s ;
+  margin-top: 100px;
+  width: 100px;
+  font-size: 16px;
+  padding: 9px;
+}
+.card-crs :hover .btn-top {
+  margin-top: 10px;
+  background-color: rgba(50, 50, 233, 0.911);
+  color: white;
+}
+#btn:hover{
+  background-color: whitesmoke;
+  border: 1px solid blue;
+  color: blue;
+}
+.btn-top{
+  background-color: red;
+}
+.card-img{
+  transition: all  1s ;
+}
+.card-img:hover{
+  filter: opacity(70%);
+}
+.all-Courses{
+   max-width: 350px;
+   padding: 5px 40px;
+   height: 45px;
+   border-radius: 20px;
+   font-size: 20px;
+  transition: all 1s ;
+}
+.all-Courses:hover{
+  background-color: white;
+  color: rgb(46, 46, 182);
+}
+#icon::before{
+  content: "___";
+  height: 10px;
+  color: orange;
+  width: 20px;
+}
+#icon::after{
+  content: "___";
+  height: 10px;
+  color: orange;
+  width: 20px;
+}
+.mobile{
+  background: linear-gradient(to right,rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.246)),  url(https://cdn.pixabay.com/photo/2020/01/02/10/15/background-image-4735444_960_720.png) ;
+  background: blur(5px);
+  background-size: cover;
+  margin: 30px 0px;
+  width: 100%;
+  color:  whitesmoke;
+  border-radius: 10px;
+}
+.play{
+  min-height: 55px;
+  border-radius: 40px;
+  border: 3px solid rgb(20, 156, 240);
+  background-color: rgb(71, 158, 212);
+  color: white;
+}
+.play:hover{
+  background: transparent;
+  color: blue;
+  border: 3px solid rgb(20, 156, 240);
+}
+.Footer-card{
+  margin-bottom: -80px;
+  border-top-left-radius: 50px;
+  background-color:  rgb(233, 175, 69);
+  z-index: 2;
+  position: relative;
+  left: 0px;
+  border-top-right-radius: 50px;
+}
+.Social{
+  font-size: 25px;
+}
+.Ftcard{
+  background-color: orange;
+}
+.Card-bg{
+  background: linear-gradient( to right, rgba(146, 137, 137, 0.698), grey);
+}
+.bg-image img{
+  height: 80vh;
+}
+.Crs_card{
+  overflow: hidden;
+  max-width: 350px;
+}
+.Crs_heding{
+   overflow: hidden;
+}
+.Crs_heding{
+  margin-right: 330px;
+  transition: all 2s linear ;
+}
+.Crs:hover .Crs_heding{
+  margin-right: 0px;
+}
+.Service_bg{
+  background: linear-gradient( to right, rgba(255, 192, 203, 0.883), rgba(255, 255, 255, 0.733),rgba(255, 192, 203, 0.664));
+}
+.Jumbo{
+  color: white;
+  background:linear-gradient(to right,rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.246)), url(https://img.deusm.com/informationweek/april19/ai-hand-stock-Sikov.jpg) ;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.Contact{
+  color: white;
+  background: url(https://media.gettyimages.com/videos/texting-messages-on-smart-phone-video-id876767836?s=640x640);
+  background-size: cover;
+
+}
