@@ -8,7 +8,6 @@ function About() {
     age: 24,
     class: 12,
   });
-  //  console.log(isN)
   return (
     <div>
       <Home />
