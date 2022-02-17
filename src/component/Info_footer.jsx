@@ -6,7 +6,7 @@ function info_footer() {
         <>
         <div className="col-md-4">
             <h2> inforamatione  </h2>
-            <p> <i className=" mr-1 fas fa-envelope"></i>  krishnakk5944711@gmail.com </p>
+            <p> <i className=" mr-1 fas fa-envelope"></i> krishnamurarik10@gmail.com </p>
             <p> <i className=" mr-1 fas fa-mobile-alt"></i> +91 8192908078</p>
             <p>Affiliate Policy</p>
             <p>Refund policy </p>

@@ -9,12 +9,13 @@ import Bloge from "./component/Bloge";
 import Mobile from "./component/Mobile";
 import Footer from "./component/Footer";
      function App() {
+     
         return(     
            <>
                 <Nabvar /> 
                 <Header/>
                 <Plan/>
-                < Courcec />
+                <Courcec />
                 <Bloge></Bloge>
                 <Mobile></Mobile>
                 <Footer/>

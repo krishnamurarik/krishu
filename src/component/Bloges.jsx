@@ -5,7 +5,6 @@ export default class Bloges extends Component {
   constructor(props) {
     super(props);
     var dd = new Date();
-    console.log(dd);
     this.state = {
       year: dd.getFullYear(),
       date: dd.getDate(),
